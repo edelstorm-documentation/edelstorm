@@ -5,12 +5,15 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import React from 'react'
+import PropTypes from 'prop-types'
+import { StaticQuery, graphql } from 'gatsby'
 
-import Header from "./header"
-import "./layout.css"
+import Header from './header'
+// import Section from '../components/sections/section'
+// import "./layout.css"
+// import '../sass/layout.scss'
+import 'bootstrap/dist/css/bootstrap.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
